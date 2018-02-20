@@ -1,0 +1,163 @@
+
+
+.row-header {
+	margin: 0px auto;
+	padding: 0px auto;
+}
+
+.row-content {
+	margin: 0px auto;
+	padding: 50px 0px 50px 0px;
+	border-bottom: 1px ridge;
+	min-height: 400px;
+}
+
+.row-footer {
+	background-color: #afafaf;
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+	padding: 20px 30px 20px 30px;
+	margin: 0px auto;
+	/*background: #7986cb;*/
+	background: #009246;
+	color: floralwhite;
+}
+
+address {
+	font-size: 80%;
+	margin: 0px;
+	color: #0f0f0f;
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+
+.navbar-inverse {
+     /*background: #303F9F;*/
+     background: #017338; /*background color of the nav bar*/
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #E8E8E8; /*text color of nav bar*/
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    /*color: #fff;*/
+    /*background: #1A237E;*/
+    background: #ce2b37; /*italian red on active tab*/
+    color: #FFFFFF; /*white color of nav item text on hover*/
+}
+
+/*menu item*/
+.navbar-inverse .navbar-nav > .open > a,
+ .navbar-inverse .navbar-nav > .open > a:hover,
+ .navbar-inverse .navbar-nav > .open > a:focus {
+    /*color: #fff;*/
+    /*background: #1A237E;*/
+    background: #ce2b37; /*italian red dropdown open tab - red*/
+    color: #FFFFFF; /*white color of nav item text -white*/
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, 
+.navbar-inverse .navbar-nav>li>a:hover {
+	background: #ce2b37; /*italian red dropdown open tab - red*/
+    color: #FFFFFF; /*white color of nav item text -white*/
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    /*background-color: #303F9F;*/
+    /*color:#eeeeee;*/
+    background-color:  #ce2b37; /*bg color in dropdown - red*/
+    color:#FFFFFF; /*font is white in dropdown - white*/
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
+    /*color:#fff;*/
+    color: #ce2b37; /*text color in dropdown while hover - red, hover color- white*/
+}
+
+.navbar-brand {
+	padding: 5px 15px;
+}
+
+.row-history {
+	padding-bottom: 50px;
+}
+
+.row-leadership {
+	padding-bottom: 30px;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: bolder;
+}
+
+.btn-primary {
+    /*color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;*/
+
+    color: #FFFFFF;
+    background: #ce2b37;
+    border-color: #ce2b37;
+}
+
+.btn-primary:focus, .btn-primary:hover {
+	background-color:  #FFFFFF; /*bg color in dropdown - red*/
+    color:#ce2b37; /*font is white in dropdown - white*/
+    border-color: #ce2b37;
+}
+
+.checkbox_text {
+	color: #ce2b37;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.affix {
+    top:100px;
+}
+
+.modal-content {
+	/*background-color: #009246;*/
+	background-color: #EBEBEB;
+	color: #ce2b37;
+	font-weight: bold;
+}
+
+.carousel {
+    background:#ce2b37;
+}
+.carousel .item {
+  height: 300px;
+}
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+#carouselButtons {
+	right: 0px;
+	position: absolute;
+	bottom: 0px;
+}
